@@ -12,5 +12,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
-    spelling
+    spelling,
+    testthat (>= 2.1.0)
 Language: en-US
+RoxygenNote: 7.0.2
