@@ -5,7 +5,7 @@
 #' @return A tibble
 #' @export fcount
 #' @examples fcount(datasets::iris$Species)
-#' @importFrom magrittr %>%
+#'
 #'
 fcount <- function(x) {
   x %>%

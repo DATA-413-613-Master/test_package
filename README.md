@@ -7,12 +7,14 @@
 
 <!-- badges: end -->
 
-The goal of testpackage is to …
+The goal of testpackage is to provide a minimal example of what a
+package file structure and file contents might look like.
 
 ## Installation
 
-You can install the released version of testpackage from
-[CRAN](https://CRAN.R-project.org) with:
+It is NOT posted on CRAN so you can fork or clone the package but you
+cannot install the released version of testpackage from
+[CRAN](https://CRAN.R-project.org).
 
 ``` r
 install.packages("testpackage")
@@ -25,6 +27,18 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(testpackage)
 ## basic example code
+fbind(as.factor(c("cat", "elephant")), as.factor(c("dog", "fish")))
+#> [1] cat      elephant dog      fish    
+#> Levels: cat dog elephant fish
+str(fbind(as.factor(c("cat", "elephant")), as.factor(c("dog", "fish"))))
+#>  Factor w/ 4 levels "cat","dog","elephant",..: 1 3 2 4
+fcount(datasets::iris$Species)
+#> # A tibble: 3 x 2
+#>   f              n
+#>   <fct>      <int>
+#> 1 setosa        50
+#> 2 versicolor    50
+#> 3 virginica     50
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?

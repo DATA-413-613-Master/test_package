@@ -14,9 +14,12 @@ LazyData: true
 Suggests: 
     spelling,
     testthat (>= 2.1.0),
-    datasets
+    datasets,
+    knitr,
+    rmarkdown
 Language: en-US
 RoxygenNote: 7.0.2
 Imports: 
     forcats,
     magrittr
+VignetteBuilder: knitr

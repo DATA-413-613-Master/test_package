@@ -18,11 +18,13 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of testpackage is to ...
+The goal of testpackage is to provide a minimal example of what a package file structure and file contents might look like.
 
 ## Installation
 
-You can install the released version of testpackage from [CRAN](https://CRAN.R-project.org) with:
+It is NOT posted on CRAN so you can fork or clone the package but you cannot install the released version of testpackage from [CRAN](https://CRAN.R-project.org).
+
+
 
 ``` r
 install.packages("testpackage")
@@ -35,6 +37,9 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(testpackage)
 ## basic example code
+fbind(as.factor(c("cat", "elephant")), as.factor(c("dog", "fish")))
+str(fbind(as.factor(c("cat", "elephant")), as.factor(c("dog", "fish"))))
+fcount(datasets::iris$Species)
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:

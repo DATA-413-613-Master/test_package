@@ -17,4 +17,6 @@ Make a sorted frequency table for a factor
 }
 \examples{
 fcount(datasets::iris$Species)
+
+
 }

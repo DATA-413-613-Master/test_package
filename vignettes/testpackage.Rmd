@@ -1,0 +1,24 @@
+---
+title: "testpackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{testpackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(testpackage)
+```
+# Introduction
+The testpackage package provides a minimal example of what a package file structure and file contents might look like.
+ 
+## References
+It is based on the examples in Hadley's book [R Packages](http://r-pkgs.had.co.nz/)
