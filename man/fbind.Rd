@@ -2,16 +2,21 @@
 % Please edit documentation in R/fbind_doc.R
 \name{fbind}
 \alias{fbind}
-\title{Title}
+\title{Concatenate Factors}
 \usage{
 fbind(a, b)
 }
 \arguments{
-\item{b}{}
+\item{a}{Factor, A vector of factor levels}
+
+\item{b}{Factor, A vector of factor levels}
 }
 \value{
-
+A vector of factor levels
 }
 \description{
-Title
+Concatenate Factors
+}
+\examples{
+fbind(as.factor(c("cat", "elephant")), as.factor(c("dog", "fish")))
 }

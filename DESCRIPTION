@@ -13,9 +13,10 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     spelling,
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    datasets
 Language: en-US
 RoxygenNote: 7.0.2
 Imports: 
-    dplyr,
-    forcats
+    forcats,
+    magrittr

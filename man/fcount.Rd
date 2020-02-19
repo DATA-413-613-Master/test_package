@@ -7,7 +7,7 @@
 fcount(x)
 }
 \arguments{
-\item{x}{factor}
+\item{x}{Factor, A vector of factors}
 }
 \value{
 A tibble
@@ -16,5 +16,5 @@ A tibble
 Make a sorted frequency table for a factor
 }
 \examples{
-fcount(iris$Species)
+fcount(datasets::iris$Species)
 }
